@@ -14,6 +14,7 @@ Full write-up: [My Website](https://mohammadsav.com/projects/bayesian-kinetics)
 - `tables/` every table the write-up quotes, as CSV
 
 ## Running it
+Tested on NixOS. `devenv shell` needs Nix (Linux or macOS) and a terminal. If you'd rather not use Nix, the package list in `devenv.nix` is plain pip syntax, so `pip install` it into any Python 3.13 environment and open the notebook however you like.
 
 ```
 devenv shell
