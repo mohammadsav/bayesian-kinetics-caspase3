@@ -16,9 +16,10 @@ Full write-up: [My Website](https://mohammadsav.com/projects/bayesian-kinetics)
 ## Running it
 
 ```
-devenv shell                 
-jupyter lab notebooks/caspase_all_models.ipynb
+devenv shell
+positron .
 ```
+Positron opens with the devenv Python already selected. Open `notebooks/caspase_all_models.ipynb` and run the cells.
 
 If you want to run the notebook, these are the settings to pay attention to:
 
